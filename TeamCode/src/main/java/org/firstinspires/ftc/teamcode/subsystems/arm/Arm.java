@@ -60,6 +60,7 @@ public class Arm implements Subsystem {
             armMotor.setPower(ArmConstants.MIN_END_SPEED);
             return;
         }
+
         double error = armMotorTargetPos - armPos;
         double deltaTime = timer.seconds()-lastTime;
         //If error changes sign set I to zero

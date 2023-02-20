@@ -24,6 +24,7 @@ public abstract class CommandOpMode extends LinearOpMode {
             loop(master);
             master.run();
         }
+
         end();
         master.reset();
     }

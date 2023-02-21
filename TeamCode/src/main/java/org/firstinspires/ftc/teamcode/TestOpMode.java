@@ -13,7 +13,7 @@ import org.firstinspires.ftc.teamcode.quickstart.trajectorysequence.TrajectorySe
 @Autonomous(name = "TestAuto", group = "default")
 @Config
 public class TestOpMode extends LinearOpMode {
-    public static double head = 30, fx = 25, fy = 48, tx=30, ty=45, endHead = -20;
+    public static double head = 30, fx = 25, fy = 47, tx=30, ty=45, endHead = -20;
 
     @Override
     public void runOpMode() throws InterruptedException {
